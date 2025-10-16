@@ -79,9 +79,7 @@ ol {
 .search-form__submit-button {
   align-self: end;
 }
-.more-button {
-  
-}
+
 .button:active {
   background: #545050;
 }
@@ -163,7 +161,7 @@ ol {
   text-transform: uppercase;
 }
 .content__accent {
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-style: bold;
   font-size: 75px;
   line-height: 94%;
