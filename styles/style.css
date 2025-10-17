@@ -153,8 +153,7 @@ ol {
 }
 
 .content__video-card {
-  border: 2px solid transparent;
-  /* Невидимый отступ в контейнере карточки*/
+  border: 2px solid transparent;  /* Невидимый отступ в контейнере карточки*/
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -173,6 +172,9 @@ ol {
   font-style: normal;
   text-transform: uppercase;
   line-height: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: bold;
 }
 
 .content__card-link {
@@ -187,16 +189,6 @@ ol {
 
 .content__card-link:active {
   background: #545050;
-}
-
-.content__video-card-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-transform: uppercase;
-  font-family: Oswald, sans-serif;
-  font-style: bold;
-  font-size: 30px;
 }
 
 .search-form__checkbox-list {
