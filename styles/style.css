@@ -223,6 +223,7 @@ ol {
 }
 
 .search-form__textfield {
+  border: none;
   width: 225px;
   height: 27px;
   display: flex;
