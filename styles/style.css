@@ -159,6 +159,7 @@ ol {
   flex-grow: 1;
   flex-basis: 0;
   overflow: hidden;
+  line-height: 1;
 }
 
 .content__video-card-title {
@@ -183,8 +184,8 @@ ol {
   -webkit-line-clamp: 4;
   line-clamp: 4;
   text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
+  font-weight: 400;
 }
 
 .content__card-link {
@@ -227,6 +228,10 @@ ol {
   line-height: normal;
 }
 
+.search-form__textfield::placeholder {
+  color: rgb(255 255 255 / 0.7);
+}
+
 .search-form__textfield {
   border: none;
   width: 225px;
@@ -234,7 +239,7 @@ ol {
   display: flex;
   align-items: center;
   font-size: 18px;
-  font-family: inherit;
+  color: rgb(255 255 255 / 0.7);
   font-weight: 400;
   line-height: normal;
   border-top: 1px solid #fff;
@@ -242,10 +247,6 @@ ol {
   background-color: transparent;
   appearance: none;
   cursor: text;
-}
-
-.search-form__textfield::placeholder {
-  color: rgb(255 255 255 / 0.7);
 }
 
 .search-form__textfield:focus {
@@ -322,12 +323,14 @@ ol {
   gap: 10px;
   border: 1px solid #fff;
   font-family: inherit;
+  font-style: bold;
+  letter-spacing: 0;
   color: #fff;
   font-size: 18px;
   cursor: pointer;
   line-height: normal;
   text-align: center;
-
+  font-weight: 700;
 }
 
 .search-form__submit-button {
